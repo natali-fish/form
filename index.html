@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- <form method="post" action="/login">
+      <label>
+        <span>Введите логин:</span>
+        <input
+          type="email"
+          name="login"
+          placeholder="Ваша почта"
+          minlength="3"
+        />
+      </label>
+      <label>
+        <span>Введите пароль:</span>
+        <input type="password" name="password" placeholder="Ваш пароль" />
+      </label>
+
+      <button type="submit">Войти</button>
+    </form> -->
+  
+      
+      <form class="form" method="post" action="/login">
+       
+          <label for="email">
+            Email
+            </label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Введите вашу почту"
+              minlength="3"
+              required
+            />
+          
+
+          <label  for="login">
+            Логин
+          </label>
+            <input
+              type="login"
+              placeholder="Введите ваш логин"
+              name="login"
+              maxlength="7"
+              required
+            />
+         
+
+          <label  for="pass">
+            Пароль
+          </label>
+            <input
+              type="password"
+              name="pass"
+              placeholder="Введите пароль"
+              minlength="5"
+              required
+            />
+          
+
+          <label  for="password">
+            Повторить пароль
+          </label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Повторите пароль"
+              minlength="5"
+              required
+            />
+          
+
+           <select name="language">
+            <option selected>--Выберите язык--</option>
+            <option>русский</option>
+            <option>английский</option>
+            <option>китайский</option>
+          </select> 
+          <button type="submit">Зарегистрироваться</button>
+       
+      </form>
+    </div>
+  </body>
+</html>
