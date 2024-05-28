@@ -28,7 +28,7 @@
     border: 0;
   }
   form button:hover {
-    background: gold;
+    background: rgb(176, 27, 144);
   }
   label {
     padding: 0.5em 0.5em 0.5em 0;
